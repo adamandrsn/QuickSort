@@ -33,6 +33,14 @@ namespace QuickSort
             Console.WriteLine("Enter Array Elements");
             Console.WriteLine("\n======================");
 
+            //get array elements
+            for(int i = 0; i < arr.Length; i++)
+            {
+                Console.Write("<" + (i + 1) + ">");
+                string s1 = Console.ReadLine();
+                arr[i] = Int32.Parse(s1);
+            }
+
         }
     }
 }
